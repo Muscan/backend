@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: ClinicManagementSystem
+  datasource:
+    url: jdbc:postgresql://localhost:5432/clinic_management_system
+    username: postgres
+    password: test123
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
