@@ -58,7 +58,6 @@ class RoleServiceTest {
 
         // Assert
         verify(roleRepository, times(1)).save(any(RoleModel.class));
-        // Further assertions can be added to check the correctness of the response
     }
 
     @Test
